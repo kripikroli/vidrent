@@ -1,9 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
+import Movies  from './components/movies';
 
 function App() {
   return (
     <main className="container">
-      <h1>Video Rental</h1>
+      <Movies />
     </main>
   );
 }
